@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nade Kate | Back-End Developer</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',sans-serif;background:#0a192f;color:#ccd6f6;line-height:1.6}
+        .container{max-width:900px;margin:0 auto;padding:2rem}
+        header{text-align:center;padding:3rem 0}
+        h1{font-size:2.5rem;color:#e6f1ff}
+        h1 span{color:#64ffda}
+        h2{font-size:1.3rem;font-weight:400;color:#8892b0;margin-top:0.5rem}
+        .section{margin:3rem 0}
+        .section h3{color:#ccd6f6;font-size:1.5rem;margin-bottom:1rem;border-bottom:2px solid #64ffda;display:inline-block;padding-bottom:0.3rem}
+        .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
+        .card{background:#112240;padding:1.5rem;border-radius:8px;border-left:3px solid #64ffda}
+        .card h4{color:#e6f1ff;margin-bottom:0.5rem}
+        .card p{color:#8892b0;font-size:0.9rem}
+        .card .tech{color:#64ffda;font-size:0.8rem;margin-top:0.5rem}
+        .skills span{display:inline-block;background:#112240;padding:0.4rem 0.8rem;margin:0.3rem;border-radius:4px;font-size:0.9rem;color:#64ffda}
+        .contact a{color:#64ffda;text-decoration:none;margin:0 0.5rem}
+        .contact a:hover{text-decoration:underline}
+        footer{text-align:center;padding:2rem 0;color:#8892b0;font-size:0.9rem}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nade <span>Kate</span></h1>
+            <h2>Back-End Developer</h2>
+        </header>
+
+        <div class="section">
+            <h3>About Me</h3>
+            <p>Back-end developer passionate about building robust APIs, efficient databases, and scalable server-side applications. I enjoy solving complex problems with clean and maintainable code.</p>
+        </div>
+
+        <div class="section">
+            <h3>Projects</h3>
+            <div class="projects">
+                <div class="card">
+                    <h4>Task Management API</h4>
+                    <p>RESTful API for managing tasks with user authentication and role-based access control.</p>
+                    <p class="tech">Python • Django • PostgreSQL • JWT</p>
+                </div>
+                <div class="card">
+                    <h4>E-Commerce Backend</h4>
+                    <p>Complete backend system with product management, cart, orders, and payment integration.</p>
+                    <p class="tech">Node.js • Express • MongoDB</p>
+                </div>
+                <div class="card">
+                    <h4>File Upload Service</h4>
+                    <p>Microservice for handling file uploads with compression, validation, and cloud storage.</p>
+                    <p class="tech">Python • FastAPI • AWS S3 • Docker</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <div class="skills">
+                <span>Python</span><span>Django</span><span>Node.js</span><span>Express</span>
+                <span>PostgreSQL</span><span>MongoDB</span><span>Redis</span><span>Docker</span>
+                <span>Git</span><span>REST APIs</span><span>Linux</span>
+            </div>
+        </div>
+
+        <div class="section contact">
+            <h3>Contact</h3>
+            <p>
+                <a href="#">GitHub</a> |
+                <a href="#">LinkedIn</a> |
+                <a href="#">Email</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2025 Nade Kate. Built with ❤️</p>
+        </footer>
+    </div>
+</body>
+</html>
